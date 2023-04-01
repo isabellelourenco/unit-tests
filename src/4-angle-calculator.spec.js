@@ -5,6 +5,10 @@ describe('4-angle-calculator', () => {
     expect(angleCalculator(0)).toEqual(0)
   })
 
+  it('should return 180 for 0.5 turns', () => {
+    expect(angleCalculator(0)).toEqual(0)
+  })
+
   it('should return 360 for 1 turn', () => {
     expect(angleCalculator(1)).toEqual(360)
   })
